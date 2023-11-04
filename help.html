@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+  /* Apply a basic style to the page */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+/* Style the description and features sections */
+p, .ul {
+    text-align: left;
+   
+    margin: 0 auto;
+}
+
+.ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   
+}
+
+/* Style the usage instructions section */
+ol {
+    text-align: left;
+    margin: 0 auto;
+   
+    list-style: decimal;
+}
+
+/* Style the call to action section */
+p:last-of-type {
+    color: #007BFF;
+    font-weight: bold;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+/* Add some spacing between sections */
+h2:not(:first-child) {
+    margin-top: 40px;
+}
+
+/* Add a bit of padding to lists and paragraphs */
+p, .ul, ol {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #F7F7F7;
+    box-shadow: 3px 3px 3px #ddd;
+}
+
+/* Add some spacing between list items in the usage instructions section */
+ .li {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    margin-left: 25px;
+}
+
+
+    
+  </style>
+</head>
+
+<body>
+  
+    <div class="main" style="display:none">
+    <div class="input-container">
+      <form action="" id="taskForm">
+        <input type="text"  placeholder="Input task here"   name="task" id="task"><br>
+        <input type="submit" id="add" value="Add task"></button>
+      </form>
+    </div>
+ <h3 class="heading">TODO LIST</h3>
+  
+    <div class="display-container">
+        </div>
+  </div>
+  
+
+  <nav>
+    <div class="logo"><img src="logo.jpg" alt="logo"></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="task.html">Task List</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </nav>
+  
+  
+  
+
+
+
+
+    <h1>Get Organized with our To-Do App</h1>
+    
+    <h2>Description:</h2>
+    <p>Feeling overwhelmed with tasks and responsibilities? Our To-Do app is here to help you stay organized and on top of your daily activities. Whether you're managing work projects, household chores, or personal goals, our user-friendly app simplifies task management and boosts productivity.</p>
+    
+    <h2>Features:</h2>
+    <ul class="ul">
+      <li class="li">Create and Manage Tasks: Easily create, edit, and delete tasks as your to-do list evolves.</li>
+    <li class="li">Priority Levels: Assign priority levels to tasks, so you know which ones need immediate attention.</li>
+    <li class="li">Due Dates: Set due dates to stay on track and never miss a deadline again.</li>
+    <li class="li">Categories: Organize tasks into categories, making it simple to separate work and personal tasks.</li>
+    <li class="li">Reminders: Receive timely notifications to keep you focused and accountable.</li>
+    <li class="li">Progress Tracking: Monitor your task completion with a progress tracker.</li>
+    <li class="li">Cross-Platform: Access your to-do list on the go with our mobile app or through a web browser.</li>
+    <li class="li">Cloud Sync: Seamlessly synchronize your tasks across multiple devices.</li>
+
+           </ul>
+
+    <h2>Usage Instructions:</h2>
+    
+      <ol>
+    <li class="li">Create Your Account: Start by creating a free account on our website or download our mobile app from your app store.</li>
+    <li class="li">Add Your Tasks: Begin by adding your tasks to the app. Click on the "Add Task" button, and enter the task name, description, and any relevant details.</li>
+    <li class="li">Set Priorities and Due Dates: Assign priority levels (e.g., high, medium, low) and due dates to each task. This helps you focus on what matters most.</li>
+    <li class="li">Organize with Categories: Use categories to sort your tasks, whether it's for work, personal, or specific projects.</li>
+    <li class="li">Receive Reminders: Our app sends you timely reminders to ensure you never forget a task.</li>
+    <li class="li">Track Progress: As you complete tasks, update their status and track your progress.</li>
+    <li class="li">Access Anywhere: You can access your to-do list on your computer, tablet, or smartphone. All your data syncs in real-time.</li>
+    <li class="li">Enjoy a More Productive Day: With your tasks neatly organized and easily manageable, enjoy a more productive and stress-free day.</li>
+</ol>
+
+       
+    
+    <p class="lp">Stay organized, meet your goals, and regain control of your time with our To-Do app. Try it today and experience the difference in your daily productivity!</p>
+
+
+
+<script src="main.js"></script> 
+</body>
+
+</html>
